@@ -70,6 +70,7 @@ Functional Simulation:
 ### Test-bench code for 4-Bit Up-Down Counter:
 
 ## Test bench Program  for  4-Bit Up-Down Counter
+```
 module test_4bit;
 reg [3:0] A;
 reg [3:0] B; reg C0;
@@ -84,6 +85,7 @@ A=4'b0011;B=4'b0011;C0=1'b0;
 end initial
 #50 $finish;
 endmodule
+```
 
 ### To Launch Simulation tool
 	linux:/> nclaunch -new&            // “-new” option is used for invoking NCVERILOG for the first time for any design
