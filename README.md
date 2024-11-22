@@ -69,7 +69,7 @@ Functional Simulation:
 
 ### Test-bench code for 4-Bit Up-Down Counter:
 
-*/Test bench Program  for  4-Bit Up-Down Counter
+## Test bench Program  for  4-Bit Up-Down Counter
 module test_4bit;
 reg [3:0] A;
 reg [3:0] B; reg C0;
